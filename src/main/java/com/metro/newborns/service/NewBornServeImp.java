@@ -82,7 +82,7 @@ public class NewBornServeImp implements NewbornServices {
 
     private NewBornDto toDto(NewBorn child) {
         NewBornDto childDto = NewBornDto.builder().
-                unique_id(child.getUnique_identifier())
+                unique_id(child.getChild_id())
                 .child_name(child.getChild_name())
                 .child_place_of_birth(child.getChild_place_of_birth())
                 .child_registration_number(child.getChild_registration_number())

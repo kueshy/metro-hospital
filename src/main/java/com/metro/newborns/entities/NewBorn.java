@@ -19,7 +19,7 @@ public class NewBorn {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long unique_identifier;
+    private Long child_id;
 
     @Column(name = "child_name")
     private String child_name;
@@ -50,7 +50,6 @@ public class NewBorn {
 
     @Column(name = "mothers_martial_status")
     private String mothers_martial_status;
-
 
     @Column(name = "created_at")
     private Instant created_at;
