@@ -21,7 +21,7 @@ import java.time.LocalDate;
 public class NewBornDto {
 
     @Schema(accessMode = Schema.AccessMode.READ_ONLY)
-    private Long unique_id;
+    private Long child_id;
 
     @NotEmpty
     private String child_name;
